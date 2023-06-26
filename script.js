@@ -3,9 +3,9 @@ function volume_sphere() {
 	let input = document.getElementById("radius").value;
 	let volume = (4/3)*Math.PI*Math.pow(input,3);
 	document.getElementById("volume").value = volume;
-	let p = document.createElement("p").innerText = volume;
-	let body = document.getElementsByTagName("body");
-	body.appendChild(p);
+	// let p = document.createElement("p").innerText = volume;
+	// let body = document.getElementsByTagName("body");
+	// body.appendChild(p);
 	
 } 
 
