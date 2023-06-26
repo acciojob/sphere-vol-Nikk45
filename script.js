@@ -5,7 +5,7 @@ function volume_sphere() {
 	// document.getElementById("res").innerText = volume;
 	// p.innerText(volume);
 	
-  document.getElementById("volume").value = volume.toFixed(4);
+  document.getElementById("vol").value = volume.toFixed(4);
 } 
 
 // window.onload = document.getElementById('MyForm').onsubmit = volume_sphere;
